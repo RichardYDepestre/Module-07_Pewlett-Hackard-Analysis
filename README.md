@@ -12,19 +12,19 @@ Our client has provided us with the requirements this analysis is based upon:
 1.2. 'Filter the data on the birth_date column to retrieve the employees who were born between 1952 and 1955. Then, order by the employee number'; \
 1.3. 'Export the Retirement Titles table from the previous step as **retirement_titles.csv** and save it to your Data folder in the **Pewlett-Hackard-Analysis** folder'.
 The script to build the tables is listed in the following sql file: **Employee_Database_challenge.sql**. \
-#### The artifact that came out of this step lists Senior Engineer, Senior Staff, Engineer, Staff, Technique Leader, Assistant Engineer, Manager as ripe for requirement, per PH's date range. [See attached - Retiring Titles](../Pewlett-Hackard-analysis/data/retirement_titles.csv). The data as it appears in this file is raw that is, it contains duplicates. This is a historical table as it accounts for the positions or titles an employee holds while at PH. An accurate number will come in the next step.
+#### The artifact that came out of this step lists Senior Engineer, Senior Staff, Engineer, Staff, Technique Leader, Assistant Engineer, Manager as ripe for requirement, per PH's date range. [See attached - Retiring Titles](https://github.com/RichardYDepestre/Pewlett-Hackard-analysis/blob/main/data/retirement_titles.csv). The data as it appears in this file is raw that is, it contains duplicates. This is a historical table as it accounts for the positions or titles an employee holds while at PH. An accurate number will come in the next step.
 
 2) 'Retrieve the employee number, first and last name, and title columns from the Retirement Titles table'; \
 2.1. Create a Unique Titles table using the INTO clause; \
 2.2. Sort the Unique Titles table in ascending order by the employee number and descending order by the last date (i.e. to_date) of the most recent title; \
 2.3. Export the Unique Titles table as unique_titles.csv and save it to your Data folder in the Pewlett-Hackard-Analysis folder.
-#### The artifact that shows the number of unique titles for the employees eligible for retirement. It groups the employees by positions. [See attached - Unique Titles](../Pewlett-Hackard-analysis/data/unique_titles.csv). The retiring_titles file cleans up the previous results and shows size number of employees in Senior Engineer, Senior Staff, Engineer and Staff.
+#### The artifact that shows the number of unique titles for the employees eligible for retirement. It groups the employees by positions. [See attached - Unique Titles](https://github.com/RichardYDepestre/Pewlett-Hackard-analysis/blob/main/data/unique_titles.csv). The retiring_titles file cleans up the previous results and shows size number of employees in Senior Engineer, Senior Staff, Engineer and Staff.
 3) Identify by name, birth data, length of time in a department. This requirement is meant to establish a list of potential replacement for the to-be-retired employees.
-#### Our analysis indicates that there are 1549 employees that meet the criterion to 'get current employees whose birth dates are between January 1, 1965 and December 31, 1965'. [See attached - Mentoring Eligibility](../Pewlett-Hackard-analysis/data/mentorship_eligibility.csv)
+#### Our analysis indicates that there are 1549 employees that meet the criterion to 'get current employees whose birth dates are between January 1, 1965 and December 31, 1965'. [See attached - Mentoring Eligibility](https://github.com/RichardYDepestre/Pewlett-Hackard-analysis/blob/main/data/mentorship_eligibility.csv)
 ## Analysis
  perused the data from the tables listed above and attempt to answer the following questions: \
 q) How many roles will need to be filled as the "silver tsunami" begins to make an impact? \
-a) We found, by other of numerical importance, that the following roles will require immediate consideration as to filling them. They are listed in the following table [Retiring Titles](../Pewlett-Hackard-analysis/data/retiring_titles.csv). A total of 90398 employees would be impacted.
+a) We found, by other of numerical importance, that the following roles will require immediate consideration as to filling them. They are listed in the following table [Retiring Titles](https://github.com/RichardYDepestre/Pewlett-Hackard-analysis/blob/main/data/retiring_titles.csv). A total of 90398 employees would be impacted.
 
 q) Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? \
 a) Short answer is yes there are. However, we find that the number of employees slated to be mentored is infinitely small considering the number high quality resources slated to retired.
